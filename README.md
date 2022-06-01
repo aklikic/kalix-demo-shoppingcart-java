@@ -1,4 +1,5 @@
 # Shopping Cart DEMO - Java - Event Sourced
+Not supported by Lightbend in any conceivable way, not open for contributions.
 
 ## Prerequisite
 - Java 11 or later<br>
@@ -220,10 +221,10 @@ curl -XPOST -d '{
   "product_id": "idA",
   "name": "apples",
   "quantity": "1"
-}' https://black-hill-1471.us-east1.kalix.app/cart/1/items/add -H "Content-Type: application/json"
+}' https://black-hill-1471.us-east1.kalix.app/cart/2/items/add -H "Content-Type: application/json"
 ```
 ```
-curl -XGET https://black-hill-1471.us-east1.kalix.app/carts/1 -H "Content-Type: application/json"
+curl -XGET https://black-hill-1471.us-east1.kalix.app/carts/2 -H "Content-Type: application/json"
 ```
 ```
 shoppingcart_topic.proto
